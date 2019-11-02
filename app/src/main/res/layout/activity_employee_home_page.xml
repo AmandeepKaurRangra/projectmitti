@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Welcome To Employee Profile"
+        android:textColor="#F04810"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="147dp"
+        android:layout_height="165dp"
+        android:src="@drawable/sahil" />
+
+    <TextView
+        android:id="@+id/tv_username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sahil Rangra" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:background="#000" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_emprecycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Employee">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_customerlist"
+                    android:icon="@drawable/ic_customerlist"
+                    android:title="Customer List" />
+                <item
+                    android:id="@+id/nav_newcustomer"
+                    android:icon="@drawable/ic_newcustomer"
+                    android:title="New Customer" />
+                <item
+                    android:id="@+id/nav_vehicleslist"
+                    android:icon="@drawable/ic_vehiclelist"
+                    android:title="Vehicle List"/>
+                <item
+                    android:id="@+id/nav_addvehicle"
+                    android:icon="@drawable/ic_addvehicle"
+                    android:title="Add Vehicle"/>
+                <item
+                    android:id="@+id/nav_reservationlist"
+                    android:icon="@drawable/ic_reservationlist"
+                    android:title="Reservation List"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Customer">
+        <menu>
+            <item
+                android:id="@+id/nav_viewVehicle"
+                android:icon="@drawable/ic_vehiclelist"
+                android:title="View Vehicles " />
+            <item
+                android:id="@+id/nav_rent_or_reserve"
+                android:icon="@drawable/ic_reservationlist"
+                android:title="Rent or Reserve" />
+            <item
+                android:id="@+id/nav_list_of_reservation"
+                android:icon="@drawable/ic_customerlist"
+                android:title="Check Reservations" />
+            <item
+                android:id="@+id/nav_cancel_reservation"
+                android:icon="@drawable/ic_cancel"
+                android:title="Cancel Reservations" />
+            <item
+                android:id="@+id/nav_return_vehicle"
+                android:icon="@drawable/ic_reservationlist"
+                android:title="Return Vehicle" />
+
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+
+</menu>
+
